@@ -25,6 +25,4 @@ A project integrating LlamaIndex workflows with Corrective RAG (CRAG) for advanc
 - Python 3.11+
 
 ## Installation
-```bash
-pip install chainlit
-# Add other necessary installation commands
+
