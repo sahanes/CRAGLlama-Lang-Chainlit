@@ -1,22 +1,25 @@
-# Project Name
-LlamaLangGraphReactChainlit
+# LlamaCRAGChain
 
-## Overview
-This project integrates Chainlit with LlamaIndex workflows, incorporating CRAG and ReAct LangGraph for an enhanced AI experience.
+A project integrating LlamaIndex workflows with Corrective RAG (CRAG) for advanced relevancy management, evolving from a basic Chainlit UI to a complex ReAct LangGraph system.
 
-## Development Phases
+## Project Phases
 
-### Phase 1
-- Integration of Chainlit with LlamaIndex workflows
-- Key adjustment: See `relevancy_pipeline` for details
+### Phase 1: CRAG-Chainlit Integration
+- LlamaIndex workflows with CRAG for relevancy management
+- Chainlit user interface
+- Basic interaction model
 
-### Phase 2
-- Implementation of CRAG and ReAct LangGraph
-- Goal: Create a more dynamic and responsive AI experience
+### Phase 2: CRAG-ReAct-LangGraph Enhancement
+- LlamaIndex workflows with CRAG (continued from Phase 1)
+- Integration of ReAct paradigm
+- Implementation of LangGraph for complex workflow management
+- Advanced, dynamic user interaction model
 
-## Production-Ready Features
-- Session handling
-- Prompt caching for UI with Chainlit
+## Consistent Features Across Phases
+- LlamaIndex as the core framework
+- CRAG (Corrective RAG) for relevancy management
+- Chainlit for user interface
+- Production-ready optimizations (session handling, prompt caching)
 
 ## Prerequisites
 - Python 3.11+
@@ -24,3 +27,4 @@ This project integrates Chainlit with LlamaIndex workflows, incorporating CRAG a
 ## Installation
 ```bash
 pip install chainlit
+# Add other necessary installation commands
